@@ -59,7 +59,7 @@ Utils contains a few helper functions to help you during your project, mainly yo
 Contains the Main class => the entry point to your program. And an empty `Game` class, this is where things start !
 
 ## The _devoirs_ folder
-A few assignements will require you to hand in documents, you will place them in the `devoirs` folder. See the how to do it in the [a relative link](devoirs/README.md).
+A few assignements will require you to hand in documents, you will place them in the `devoirs` folder. Explanations to add your files are found [here](devoirs/README.md).
 
 ## About this README
 Feel free to edit this README as well, it's yours :)
