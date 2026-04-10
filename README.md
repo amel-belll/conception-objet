@@ -46,7 +46,7 @@ If running a Windows computer you also need bash shell installed (for example Gi
 ## Folder contents
 Here is a quick explanation of the project contents.
 ### utils
-Utils contains a few helper functions to help you during your project, mainly you will find 
+Utils contains a few helper functions to help you during your project, mainly you will find
 - Array2DPrinter : functions to draw your map in the console
 - StringStyling.java => functions to color and style strings in the console (80s retro style :))
 
@@ -57,6 +57,9 @@ Utils contains a few helper functions to help you during your project, mainly yo
 
 ### main
 Contains the Main class => the entry point to your program. And an empty `Game` class, this is where things start !
+
+## The _devoirs_ folder
+A few assignements will require you to hand in documents, you will place them in the `devoirs` folder. See the how to do it in the [a relative link](devoirs/README.md).
 
 ## About this README
 Feel free to edit this README as well, it's yours :)
