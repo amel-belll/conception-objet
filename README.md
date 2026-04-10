@@ -1,5 +1,5 @@
 # Conception Orientée Objet Starting Code
-This is some boiler plate code for the "Conception Orientée Objet" course project. This is the starting point for your team project.
+This is the starting code for the "Conception Orientée Objet" course project.
 
 ## Setup
 Each team member will need to get a local copy of the code on his computer. Here are the instructions to do your setup
