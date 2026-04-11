@@ -1,15 +1,18 @@
 # Conception Orientée Objet Starting Code
 This is the starting code for the "Conception Orientée Objet" course project.
 
+## The _devoirs_ folder
+A few assignements will require you to hand in documents, you will place them in the `devoirs` folder. Explanations to add your files are found [here](devoirs/README.md).
+
 ## Setup
 Each team member will need to get a local copy of the code on his computer. Here are the instructions to do your setup
 
-### OPTIONAL install git command line
-If you want to learn command line tools as well, you can install the git command line on your machine.
+### install the git command line
+If not yet configured on your machine, install the git command line on your machine.
 [instructions here](https://github.com/git-guides/install-git)
 
 ### Repository local setup
-Pick some location folder on your machine where you will download your code. For example you can create  `~/Git/ConcepObjProject` on your machine
+Pick some location folder on your machine where you will checkout your code. For example you can create the `~/Git/ConcepObjProject` folder on your machine.
 
 #### Using the command line
 Assuming you already have installed and configured git on your machine
@@ -43,23 +46,22 @@ Alternatively, you can run the project with the `buildAndRun.sh` script. Open a 
 To run the script, you need java installed on your computer.
 If running a Windows computer you also need bash shell installed (for example Git For Windows https://gitforwindows.org/).
 
-## Folder contents
-Here is a quick explanation of the project contents.
-### utils
+## src folder contents
+
+Here is an overview of the code you start with. Feel free to add folders to organize your code.
+
+### scr/utils
 Utils contains a few helper functions to help you during your project, mainly you will find
 - Array2DPrinter : functions to draw your map in the console
-- StringStyling.java => functions to color and style strings in the console (80s retro style :))
+- StringStyling => functions to color and style strings in the console (80s retro style :))
 
-### examples
-- String manipulation examples are found in the `src/exemples` folder and called in the main function. Feel free to remove these calls.
-- Basic user input example (as a reminder)
+### src/examples
+- String processing examples are found in the `src/exemples` folder and called in the main function. Feel free to remove these calls.
+- Basic user input example using a scanner (as a reminder)
 - Usage of the string styling helpers
 
-### main
+### scr/main
 Contains the Main class => the entry point to your program. And an empty `Game` class, this is where things start !
-
-## The _devoirs_ folder
-A few assignements will require you to hand in documents, you will place them in the `devoirs` folder. Explanations to add your files are found [here](devoirs/README.md).
 
 ## About this README
 Feel free to edit this README as well, it's yours :)
