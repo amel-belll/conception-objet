@@ -1,7 +1,14 @@
 package main;
-public abstract class Item {
-    protected String name;
-    protected String description;
+public class Item {
+    private String name;
+    private String description;
+    private String unlockCode;
+ 
+      public Item(String name, String description, String unlockCode) {
+        this.name = name;
+        this.description = description;
+        this.unlockCode = unlockCode;
+    }
     public String getName(){
         return this.name;
     }
@@ -13,5 +20,9 @@ public abstract class Item {
     }
     public void setDescription (String description){
         this.description = description;
+    }
+     public String getUnlockCode() { return unlockCode; }
+    public void setUnlockCode (String unlockCode){
+        this.unlockCode = unlockCode;
     }
 }
