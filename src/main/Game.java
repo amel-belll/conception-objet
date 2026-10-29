@@ -87,9 +87,9 @@ public class Game {
                             new Item("clé_verte", "Une clé mouillée", "KEY_GREEN"), 
                             "FOURCHETTE01");
         foret.addPNJ(fou);
+        
         PNJ fee = new PNJ("fée clochette", "J'adore Peter Pan", null, null);
         riviere.addPNJ(fee);
-
 
         //On place le joueur au centre
         player = new Player("Aventurier", map, 2, 1);
